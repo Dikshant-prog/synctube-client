@@ -23,9 +23,15 @@ export function RoomProvider({ children }) {
   const [errorNotification, setErrorNotification] = useState('');
 
   const addSystemLog = useCallback((text) => {
+    const time = new Date().toLocaleTimeString('en-IN', {
+      timeZone: 'Asia/Kolkata',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+    });
     setSystemLogs((prev) => [
       ...prev.slice(-49), // Keep last 50 logs
-      { id: Date.now() + Math.random(), text, time: new Date().toLocaleTimeString() },
+      { id: Date.now() + Math.random(), text, time },
     ]);
   }, []);
 
