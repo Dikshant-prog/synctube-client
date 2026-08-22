@@ -10,7 +10,7 @@ export function HostPanel() {
   const host = isHost(userRole);
 
   const sampleVideos = [
-    { title: 'Lofi Hip Hop Radio 24/7', id: 'jfKfPfyJRdk' },
+    { title: 'Big Buck Bunny 4K Animation', id: 'aqz-KE-bpKQ' },
     { title: 'Nature 4K Relaxation Video', id: 'BHACKCNDMW8' },
     { title: 'Synthwave Neon Drive', id: '4xDzrJKXOOY' },
   ];
