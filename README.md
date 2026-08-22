@@ -2,12 +2,16 @@
 
 SyncTube React 18 + Vite + Tailwind CSS Frontend for real-time synchronized YouTube watch parties.
 
-## 🚀 Features
-- 🎬 **Real-Time YouTube Player**: YouTube IFrame Player API with sub-second synchronization for Play, Pause, Seek timeline, and Video changes.
-- 👑 **Role-Based Controls**: Controls dynamically adapt based on user role (`HOST`, `MODERATOR`, `PARTICIPANT`).
-- 🔗 **Instant Invitations**: One-click room code copying & direct link sharing (`/room/SYNC-XXXX`).
-- 💬 **Live Chat & System Logs**: Real-time room chat & system activity logs.
-- 🎨 **Modern UI**: Dark glassmorphic interface built with Tailwind CSS & Lucide React icons.
+## 🌐 Live Deployment & Repositories
+- 🚀 **Live Web Application (Frontend)**: [https://synctube-client.onrender.com](https://synctube-client.onrender.com)
+- 📡 **Live Backend Socket & API Server**: [https://synctube-server-fi8a.onrender.com](https://synctube-server-fi8a.onrender.com)
+- 📦 **Frontend Repository**: [https://github.com/Dikshant-prog/synctube-client](https://github.com/Dikshant-prog/synctube-client)
+- 📦 **Backend Repository**: [https://github.com/Dikshant-prog/synctube-server](https://github.com/Dikshant-prog/synctube-server)
+
+## 🏗️ Architecture Overview
+- **YouTube IFrame API Integration**: Sub-second synchronization of Play, Pause, and Seek timeline state via Socket.IO.
+- **Context API & Custom Hooks**: `RoomContext` and `usePlayer` manage real-time room state, participant list, role permissions, and active video streams.
+- **Dynamic Role Adaptation**: UI controls automatically lock/unlock based on role (`HOST`, `MODERATOR`, `PARTICIPANT`).
 
 ## 🛠️ Tech Stack
 - React 18 & Vite
