@@ -17,9 +17,9 @@ SyncTube React 18 + Vite + Tailwind CSS Frontend for real-time synchronized YouT
 
 - 🎬 **Real-Time YouTube Player**: Official YouTube IFrame Player API integration with sub-second synchronization for Play, Pause, Seek timeline, and Video changes.
 - 👑 **Dynamic Role-Based UI**: UI controls automatically adapt, lock, or unlock based on user role (`HOST`, `MODERATOR`, `PARTICIPANT`).
-- 🔗 **Instant Room Invitations**: One-click room code copying & direct shareable URL routing (`/room/SYNC-XXXX`).
+- 🔗 **Instant Room Invitations**: One-click room code copying & direct URL routing support (`/room/SYNC-XXXX`).
 - 💬 **Live Chat & System Logs**: Real-time room chat with Indian Standard Time (IST) timestamps & system activity feed (`User X joined`, `Host changed video`).
-- 🎨 **Modern Dark Glassmorphic UI**: Built with Tailwind CSS, custom scrollbars, glowing accents, and responsive layouts.
+- 🎨 **Modern Light Glassmorphic UI**: Built with Tailwind CSS, custom scrollbars, glowing accents, and responsive layouts.
 
 ---
 
